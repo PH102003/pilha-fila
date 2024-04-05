@@ -15,3 +15,10 @@ const handleClickBtAdd = () => {
     }
 
 }
+function saida(){
+    let x = document.getElementById("inputNumero").value;
+    document.getElementById("preObjeto").innerHTML = x;   
+}
+
+btAdd.onclick = handleClickBtAdd;
+btRemover.onclick = handleClickBtRemover;
